@@ -6,20 +6,23 @@ using Crestron.SimplSharp;
 
 namespace Multiple_Press_and_Holds
 {
-
     public class MultipleHold
     {
 
         public delegate void ReportIndex(ushort index);
         public ReportIndex SendIndex { get; set; }
 
-        private ushort Num_Holds = 76;
+        public ushort Num_Holds;
         public ushort Hold_Time;
         public ushort[] Hold_Values;
         private bool[] Status;
         public CTimer[] Holds;
 
-        public MultipleHold()
+        /*public MultipleHold()
+        {
+        }*/
+
+        public void Init()
         {
             Hold_Values = new ushort[Num_Holds];
             Status = new bool[Num_Holds];
