@@ -12,19 +12,15 @@ namespace Multiple_Press_and_Holds
         public delegate void ReportIndex(ushort index);
         public ReportIndex SendIndex { get; set; }
 
-        public ushort Num_Holds;
-        public ushort Hold_Time;
+        private ushort Hold_Time;
         public ushort[] Hold_Values;
         private bool[] Status;
         public CTimer[] Holds;
 
-        /*public MultipleHold()
-        {
-        }*/
-
-        public void Init()
+        public void Init(ushort Num_Holds, ushort hold_time)
         {
             Hold_Values = new ushort[Num_Holds];
+            Hold_Time = hold_time;
             Status = new bool[Num_Holds];
             Holds = new CTimer[Num_Holds];
         }
