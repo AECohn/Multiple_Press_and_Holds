@@ -1,0 +1,66 @@
+//Programmer Aviv Cohn
+#CATEGORY "46" "Aviv's Modules" // Custom
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+#Define_Constant Num_Holds 2 //Number of Holds
+
+#USER_SIMPLSHARP_LIBRARY "Multiple_Press_and_Holds"
+
+Digital_Input _skip_, _skip_, Press[Num_Holds];
+Digital_Output _skip_, _skip_, Hold_Succesful[Num_Holds], Hold_UnSuccesful[Num_Holds];
+
+Integer_Parameter Hold_Time, Pulse_Time;
+
+#Begin_Parameter_Properties Hold_Time
+PropValidUnits = unitTime;
+PropDefaultUnit = unitTime;
+PropDefaultValue = 2.5s;
+#End_Parameter_Properties
+
+#Begin_Parameter_Properties Pulse_Time
+PropValidUnits = unitTime;
+PropDefaultUnit = unitTime;
+Propdefaultvalue = 0s;
+#End_Parameter_Properties
+
+
+
+
+MultipleHold myPressHold;
+
+Function Main()
+{
+	RegisterDelegate(myPressHold, SendIndex, ReportIndexHandler);
+	//myPressHold.Hold_Time = Hold_Time*10;
+	myPressHold.Init(Num_Holds, Hold_Time*10); 
+
+}             
+
+Push Press
+{
+	 myPressHold.Press(getlastmodifiedarrayindex()-1);
+}
+
+Release Press
+{
+	 myPressHold.Letgo(getlastmodifiedarrayindex()-1);
+}
+ 
+
+Callback Function ReportIndexHandler (integer ActiveIndex)
+{
+ 	if(myPressHold.Hold_Values[ActiveIndex] = 1)
+			{
+             	Pulse(Pulse_Time, Hold_Succesful[ActiveIndex+1]);
+			}
+
+			else 
+			{
+             	Pulse(Pulse_Time, Hold_UnSuccesful[ActiveIndex+1]);
+			}
+}                     
+
+
+
