@@ -1,16 +1,8 @@
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\Multiple_Press_and_Holds.dll
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\Multiple_Press_and_Holds.pdb
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\SimplSharpCustomAttributesInterface.dll
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\SimplSharpHelperInterface.dll
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\Newtonsoft.Json.Compact.dll
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\obj\Debug\Multiple_Press_and_Holds.dll
-C:\Users\acohn\Documents\Aviv Programming\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\obj\Debug\Multiple_Press_and_Holds.pdb
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\Multiple_Press_and_Holds.dll
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\Multiple_Press_and_Holds.pdb
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\SimplSharpCustomAttributesInterface.dll
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\SimplSharpHelperInterface.dll
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\bin\Debug\Newtonsoft.Json.Compact.dll
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\obj\Debug\ResolveAssemblyReference.cache
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\obj\Debug\Multiple_Press_and_Holds.dll
-C:\Documentation\Crestron\Aviv's Modules\Simpl#\Press and Hold\Multiple_Press_and_Holds\Multiple_Press_and_Holds\obj\Debug\Multiple_Press_and_Holds.pdb
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\bin\Debug\Multiple_Press_and_Holds.dll
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\bin\Debug\Multiple_Press_and_Holds.pdb
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\bin\Debug\SimplSharpCustomAttributesInterface.dll
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\bin\Debug\SimplSharpHelperInterface.dll
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\obj\Debug\Multiple_Press_and_Holds.dll
+C:\Users\AvivCohn\Code\Modules\Simpl_Plus_Sharp\Development\Temp\Multiple_Press_and_Holds\obj\Debug\Multiple_Press_and_Holds.pdb
